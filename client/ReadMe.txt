@@ -1,0 +1,1 @@
+Исходники находятся в StudyJava7Ext\ch06-mysolution.
