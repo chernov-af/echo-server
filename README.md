@@ -1,1 +1,1 @@
-# echo-server
+# The simple java application that listening socket on port 8088 and retranslating input messages back to client.
