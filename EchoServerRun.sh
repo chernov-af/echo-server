@@ -10,3 +10,6 @@ java -Djava.rmi.server.hostname=127.0.0.1 \
      -Dcom.sun.management.jmxremote.authenticate=false \
      -Dcom.sun.management.jmxremote.ssl=false \
      EchoServer 8088
+
+#java -agentpath:/usr/lib/jprofiler11.1.2/bin/linux-x64/libjprofilerti.so=port=8849,nowait \
+#     EchoServer 8088
