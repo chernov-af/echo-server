@@ -1,1 +1,1 @@
-Исходники находятся в StudyJava7Ext\ch06-mysolution.
+РСЃС…РѕРґРЅРёРєРё РЅР°С…РѕРґСЏС‚СЃСЏ РІ StudyJava7Ext\ch06-mysolution.
