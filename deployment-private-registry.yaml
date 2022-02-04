@@ -19,9 +19,10 @@ spec:
         app.kubernetes.io/name: chaf
         app.kubernetes.io/instance: echo-server
     spec:
+      imagePullSecrets:
+        - name: <dockerconfigjson-secret-name>
       containers:
-      - image: chaf/echo-server:latest
-        imagePullPolicy: Never
+      - image: <docker-private-registry-address>/chaf/echo-server:latest
         name: echo-server
         ports:
         - containerPort: 8088
